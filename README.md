@@ -1,5 +1,5 @@
 # Lang Extractor
-- Extracts data from lextutor.ca/vp/comp
+- Extracts data from lextutor.ca/vp/comp/
 - Turns it into a csv
 
 # Setup
