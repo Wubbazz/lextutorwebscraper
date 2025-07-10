@@ -43,7 +43,8 @@ numeric_data_fields = numeric_data_fields + generate_repeated_k_list()
 data = [numeric_data_fields]
 
 for i in tqdm(range((len(text_files)))):
-    id_num = text_files[i][0:5] + str(get_id_num(text_files[i]))
+    id_num = text_files[i][0:6]
+    print(id_num)
     q_num = 'P' + str(get_q_num(text_files[i]))
     file_addr = "textdata/" + text_files[i]
     with open(file_addr, "r") as f:
