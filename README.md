@@ -8,10 +8,23 @@ This script is for my LANG390 course at VIU. It simply extracts specific charact
 
 # Setup
 - Create a folder called 'textdata' in the same direcotry of the main.py
+- Place all the txt files in the textdata folder
 - download the latest version of the chrome driver from https://googlechromelabs.github.io/chrome-for-testing/ or the version corresponding to your google chrome version and place it in the same file as main.py. 
   - Make sure the chrome driver is named "chromedriver"
 
-- Make sure to run the download the requirements in the requirments.txt file.
+- In the command line navigate to file that contains main.py
+- Create a virtual environment
+```bash
+    python -m venv venv
+```
+- Activate the environment
+```bash
+    source venv/bin/activate
+```
+- Install the required packages
+```bash
+    pip install -r requirements.txt
+```
 
 # Runing the Script
 - Simply run the script
