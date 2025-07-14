@@ -12,3 +12,10 @@ This script is for my LANG390 course at VIU. It simply extracts specific charact
   - Make sure the chrome driver is named "chromedriver"
 
 - Make sure to run the download the requirements in the requirments.txt file.
+
+# Runing the Script
+- Simple run the script
+  ```bash
+  python3 main.py
+  ```
+- And a CSV file called extracted_data will appear in the same directory as main.py
