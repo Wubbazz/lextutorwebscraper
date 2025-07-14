@@ -14,7 +14,7 @@ This script is for my LANG390 course at VIU. It simply extracts specific charact
 - Make sure to run the download the requirements in the requirments.txt file.
 
 # Runing the Script
-- Simple run the script
+- Simply run the script
   ```bash
   python3 main.py
   ```
