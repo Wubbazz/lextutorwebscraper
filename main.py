@@ -44,7 +44,6 @@ data = [numeric_data_fields]
 
 for i in tqdm(range((len(text_files)))):
     id_num = text_files[i][0:6]
-    print(id_num)
     q_num = 'P' + str(get_q_num(text_files[i]))
     file_addr = "textdata/" + text_files[i]
     with open(file_addr, "r") as f:
@@ -92,5 +91,4 @@ driver.quit()
 with open('extracted_data.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(data)
-
 
